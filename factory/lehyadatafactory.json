@@ -1,0 +1,9 @@
+{
+	"name": "lehyadatafactory",
+	"location": "centralindia",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "ee439bfa-2501-4743-b5eb-f30e672bf41d",
+		"tenantId": "bea626ef-4dcd-4a99-bf36-1a24b5e426cc"
+	}
+}
