@@ -1,0 +1,30 @@
+{
+	"name": "ds_SqlServercopy",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_Onpremsqlserver",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Table_Schema": {
+				"type": "string"
+			},
+			"Table_Name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": {
+				"value": "@dataset().Table_Schema",
+				"type": "Expression"
+			},
+			"table": {
+				"value": "@dataset().Table_Name",
+				"type": "Expression"
+			}
+		}
+	}
+}
